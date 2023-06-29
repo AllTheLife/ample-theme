@@ -57,6 +57,7 @@
       (ample/yellow "#baba36")
       (ample/bright-yellow "#fffe0a")
       (ample/purple "#ab75c3")
+      (ample/dark-purple "#623d73")
       (ample/light-gray "#858585")
       (ample/gray "#757575")
       (ample/dark-gray "#656565")
@@ -119,7 +120,7 @@
 
    `(popup-tip-face ((t (:background ,ample/fg :foreground ,ample/bg))))
 
-   `(header-line ((t (:background ,ample/fg :foreground ,ample/bg))))
+   `(header-line ((t (:background ,ample/darkest-gray :foreground ,ample/fg))))
 
    `(button  ((t (:foreground ,ample/lighter-blue :background nil :underline t))))
 
@@ -143,12 +144,12 @@
 
    `(vertical-border ((t (:background ,ample/darker-gray :foreground ,ample/darkest-gray))))
 
-   `(hl-line ((t (:background "#1f1f1f"))))
+   `(hl-line ((t (:background "#1c1c1c"))))
 
    `(highlight-indentation-face ((t (:background ,ample/darkest-gray))))
 
    ;; mini buff
-   `(minibuffer-prompt ((t (:foreground ,ample/bright-yellow :bold t :background nil))))
+   `(minibuffer-prompt ((t (:foreground ,ample/blue :bold t :background nil))))
 
 
    `(compilation-error		((t (:foreground ,ample/red :bold t))))
@@ -198,7 +199,7 @@
    `(show-paren-mismatch ((t (:inherit error))))
 
    ;; error
-   `(error ((t (:foreground "red"))))
+   `(error ((t (:foreground "darkred"))))
 
    ;; ido
    `(ido-only-match		((t (:foreground ,ample/green))))
@@ -826,6 +827,9 @@
    `(realgud-bp-line-disabled-face  ((t (:box (:color "grey50")))))
    `(realgud-line-number            ((t (:foreground ,ample/yellow))))
    `(realgud-backtrace-number       ((t (:foreground ,ample/yellow, :weight bold))))
+
+   ;; vertico
+   `(vertico-current ((t (:background ,ample/dark-purple))))
 
    ;; widget
    `(widget-field  ((t (:foreground ,ample/fg :background ,ample/dark-gray))))
