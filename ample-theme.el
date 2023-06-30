@@ -78,7 +78,7 @@
       (ample/rb4 "#4170a3")
       (ample/rb5 "#757575")
 
-      (ample/bg "gray13")
+      (ample/bg "#212121")
       (ample/fg "#bdbdb3"))
 
 
