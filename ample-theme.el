@@ -78,7 +78,8 @@
       (ample/rb4 "#4170a3")
       (ample/rb5 "#757575")
 
-      (ample/bg "#212121")
+      ;; (ample/bg "#212121")
+      (ample/bg "#000000")
       (ample/fg "#bdbdb3"))
 
 
@@ -103,9 +104,9 @@
    `(font-lock-string-face		((t (:foreground ,ample/tan))))
    `(font-lock-preprocessor-face	((t (:foreground ,ample/orange))))
    `(font-lock-type-face		((t (:foreground ,ample/red))))
-   `(font-lock-constant-face		((t (:foreground ,ample/purple))))
+   `(font-lock-constant-face		((t (:foreground ,ample/yellow))))
    `(font-lock-warning-face		((t (:foreground "red" :bold t))))
-   `(font-lock-variable-name-face	((t (:foreground ,ample/yellow))))
+   `(font-lock-variable-name-face	((t (:foreground ,ample/purple))))
    `(font-lock-doc-face			((t (:foreground ,ample/dark-tan))))
 
    ;; mode line & powerline
