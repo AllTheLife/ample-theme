@@ -78,8 +78,8 @@
       (ample/rb4 "#4170a3")
       (ample/rb5 "#757575")
 
-      ;; (ample/bg "#212121")
-      (ample/bg "#000000")
+      (ample/bg "#212121")
+      ;; (ample/bg "#000000")
       (ample/fg "#bdbdb3"))
 
 
